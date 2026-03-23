@@ -1,0 +1,56 @@
+{
+  "trip_id": "sample_001",
+  "destination": "Paris, France",
+  "dates": {
+    "start": "2026-06-15",
+    "end": "2026-06-20"
+  },
+  "travelers": 2,
+  "budget": {
+    "total": 3000,
+    "currency": "USD",
+    "breakdown": {
+      "flights": 800,
+      "accommodation": 900,
+      "food": 600,
+      "activities": 500,
+      "transportation": 200
+    }
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "2026-06-15",
+      "activities": [
+        {
+          "time": "09:00",
+          "activity": "Arrival at CDG Airport",
+          "duration": "2 hours",
+          "cost": 0
+        },
+        {
+          "time": "12:00",
+          "activity": "Check-in at Hotel",
+          "location": "Le Marais District",
+          "cost": 0
+        },
+        {
+          "time": "15:00",
+          "activity": "Visit Notre-Dame Cathedral",
+          "duration": "2 hours",
+          "cost": 0
+        }
+      ],
+      "weather": {
+        "condition": "Partly Cloudy",
+        "temperature": "22°C",
+        "precipitation": "10%"
+      }
+    }
+  ],
+  "recommendations": {
+    "flights": [],
+    "hotels": [],
+    "restaurants": []
+  }
+}
